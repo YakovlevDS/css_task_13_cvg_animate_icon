@@ -1,0 +1,27 @@
+.wrapper{
+    margin: 20% auto;
+}
+
+svg {
+border-radius: 30px;
+  background-color: #d0d2cf;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 600px;
+  height: 300px;
+
+  background: #3e5296;
+}
+
+.path_line {
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-name: line;
+}
+
+@keyframes line {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
