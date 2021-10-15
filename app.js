@@ -4,7 +4,7 @@
 // Solution 1
 
  let len = 0;
- let speed = 5;
+ let speed = 50;
  let delay = 0;
 
  const paths = document.querySelectorAll(".path_line");
@@ -20,6 +20,7 @@
 
    element.style.animationDuration = `${duration}s`;
    element.style.animationDelay = `${delay}s`;
+   
 
    element.setAttribute("stroke-dasharray", elementLen);
    element.setAttribute("stroke-dashoffset", elementLen);
